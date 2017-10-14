@@ -1,0 +1,26 @@
+package com.stackroute.Insurance;
+import org.apache.log4j.Logger;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class HealthInsurance implements InsuranceSurveyor{
+
+	Claim claim100;
+	
+	public HealthInsurance(Claim claim100 ) {
+		this.claim100=claim100;
+		
+	}
+	
+	public boolean Validate() {
+		if(claim100.getClaimType().equals("Health"))
+		{
+			System.out.println("health insurance is verified");
+			return true;
+		}
+		
+		return false;
+	}
+
+}

@@ -1,0 +1,5 @@
+package com.stackroute.restfulapi.RestApi;
+
+public class GreetingController {
+
+}

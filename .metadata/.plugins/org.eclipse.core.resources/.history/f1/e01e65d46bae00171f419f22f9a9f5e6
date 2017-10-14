@@ -1,0 +1,5 @@
+package com.stackroute.jdbcdemo.dao;
+
+public class HibernateDaoImpl {
+
+}

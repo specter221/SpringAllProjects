@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="/home/akshay/Desktop/Spring Projects/gs-rest-service-master"/>
+			<item value="/home/akshay/Desktop/Spring Projects/ChoclateMVCproject/6539OS - final code (1)/chocolatestore-starter"/>
+			<item value="/home/akshay/Desktop/Spring Projects/ChoclateMVCproject/6539OS - final code (1)/chocolatestore-model"/>
+			<item value="/home/akshay/Desktop/Spring Projects/ChoclateMVCproject/6539OS - final code/chocolatestore-model"/>
+			<item value="/home/akshay/Desktop/Spring Projects/ChoclateMVCproject/6539OS - final code/chocolatestore-starter"/>
+			<item value="/home/akshay/Desktop/Spring Projects/Insurance_Spring"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item value="All Catalogs" key="catalog"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="wizardPage">
+		<list key="groupId">
+			<item value="HelloSpringMVCTutorial"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="HelloSpringMVCTutorial"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="/home/akshay/Desktop/Spring Projects/RestApi"/>
+			<item value="/home/akshay/Desktop/Spring Projects/gs-rest-service-master/complete"/>
+			<item value="/home/akshay/Desktop/Spring Projects/jdbcDemo"/>
+			<item value="/home/akshay/Desktop/Spring Projects"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="com.stackroute.zomato.Foodies"/>
+			<item value="com.stackroute.zomatofoodiesapi.ZomatoFoodies"/>
+			<item value="com.stackroute.restfulapi.RestApi"/>
+		</list>
+		<list key="groupId">
+			<item value="com.stackroute.zomato"/>
+			<item value="com.stackroute.zomatofoodiesapi"/>
+			<item value="com.stackroute.restfulapi"/>
+		</list>
+		<list key="artifactId">
+			<item value="Foodies"/>
+			<item value="ZomatoFoodies"/>
+			<item value="RestApi"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+</section>

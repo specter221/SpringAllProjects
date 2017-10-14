@@ -1,0 +1,9 @@
+package com.stackroute.zomoto.Foodies.interfce;
+
+public interface FoodiesService {
+	
+	public void addFoodiesModel();
+	
+	 public void deleteFoodiesModel();
+
+}

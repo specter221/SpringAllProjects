@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="MVC_Project1"/>
+<aop-project name="demo"/>
+<aop-project name="Insurance_Spring"/>
+<aop-project name="chocolatestore-model"/>
+<aop-project name="course-api"/>
+<aop-project name="Foodies"/>
+<aop-project name="springchocolatestore"/>
+<aop-project name="RestApi"/>
+<aop-project name="HelloSpringMVCTutorial"/>
+</aop-reference-model>

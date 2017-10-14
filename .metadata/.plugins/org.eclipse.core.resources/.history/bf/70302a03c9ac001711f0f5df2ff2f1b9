@@ -1,0 +1,11 @@
+package org.stackroute.SpringDemoapp;
+
+public class Triangle {
+
+	public void draw() {
+		System.out.println("Traingle is drawn");
+		
+	}
+	
+	
+}

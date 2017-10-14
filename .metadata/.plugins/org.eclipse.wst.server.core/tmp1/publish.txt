@@ -1,0 +1,10 @@
+#Tomcat publish data
+#Tue Oct 10 09:57:10 IST 2017
+org.eclipse.jst.jee.server\:/binary\:/home/akshay/Desktop/Spring\ Projects/CrunchifyHello/WebContent/WEB-INF/lib/spring-web-5.0.0.RELEASE-sources.jar=/home/akshay/Desktop/sts-bundle/pivotal-tc-server-developer-3.2.6.RELEASE/base-instance/wtpwebapps/CrunchifyHello/WEB-INF/lib/spring-web-5.0.0.RELEASE-sources.jar
+org.eclipse.jst.jee.server\:MyWebApp=/home/akshay/Desktop/sts-bundle/pivotal-tc-server-developer-3.2.6.RELEASE/base-instance/wtpwebapps/MyWebApp
+org.eclipse.jst.jee.server\:HelloSpringMVCTutorial=/home/akshay/Desktop/sts-bundle/pivotal-tc-server-developer-3.2.6.RELEASE/base-instance/wtpwebapps/HelloSpringMVCTutorial
+org.eclipse.jst.jee.server\:/binary\:/home/akshay/.m2/repository/org/springframework/spring-web/4.0.2.RELEASE/spring-web-4.0.2.RELEASE.jar=/home/akshay/Desktop/sts-bundle/pivotal-tc-server-developer-3.2.6.RELEASE/base-instance/wtpwebapps/springchocolatestore/WEB-INF/lib/spring-web-4.0.2.RELEASE.jar
+org.eclipse.jst.jee.server\:MVC_Project1=/home/akshay/Desktop/sts-bundle/pivotal-tc-server-developer-3.2.6.RELEASE/base-instance/wtpwebapps/MVC_Project1
+org.eclipse.jst.jee.server\:springchocolatestore=/home/akshay/Desktop/sts-bundle/pivotal-tc-server-developer-3.2.6.RELEASE/base-instance/wtpwebapps/springchocolatestore
+org.eclipse.jst.jee.server\:/binary\:/home/akshay/Desktop/Spring\ Projects/CrunchifyHello/WebContent/WEB-INF/lib/spring-web-5.0.0.RELEASE.jar=/home/akshay/Desktop/sts-bundle/pivotal-tc-server-developer-3.2.6.RELEASE/base-instance/wtpwebapps/CrunchifyHello/WEB-INF/lib/spring-web-5.0.0.RELEASE.jar
+org.eclipse.jst.jee.server\:CrunchifyHello=/home/akshay/Desktop/sts-bundle/pivotal-tc-server-developer-3.2.6.RELEASE/base-instance/wtpwebapps/CrunchifyHello

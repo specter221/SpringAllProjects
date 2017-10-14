@@ -1,0 +1,5 @@
+package com.stackroute.zomato.Foodies.domain;
+
+public class FoodiesModel {
+
+}

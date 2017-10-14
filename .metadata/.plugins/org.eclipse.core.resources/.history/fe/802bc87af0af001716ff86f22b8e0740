@@ -1,0 +1,5 @@
+package com.stackroute.zomoto.Foodies.interfce;
+
+public interface FoodiesService {
+
+}

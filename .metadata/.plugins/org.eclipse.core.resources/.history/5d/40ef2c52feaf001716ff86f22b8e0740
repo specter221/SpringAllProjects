@@ -1,0 +1,12 @@
+package com.stackroute.zomato.Foodies.repository;
+import com.stackroute.zomato.Foodies.domain;
+import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface FoodiesRepository extends CrudRepository<FoodiesModel,Integer>{
+	
+
+
+}
+

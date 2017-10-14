@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Encapsulate field &apos;com.stackroute.jdbcdemo.dao.HibernateDaoImpl.sessionFactory&apos; in &apos;com.stackroute.jdbcdemo.dao.HibernateDaoImpl&apos;&#x0A;- Original project: &apos;jdbcDemo&apos;&#x0A;- Original element: &apos;com.stackroute.jdbcdemo.dao.HibernateDaoImpl.sessionFactory&apos;&#x0A;- Getter method name: &apos;getSessionFactory&apos;&#x0A;- Setter method name: &apos;setSessionFactory&apos;&#x0A;- Field visibility: &apos;public&apos;&#x0A;- Use getter and setter methods in declaring type" comments="false" declaring="true" description="Encapsulate field &apos;sessionFactory&apos;" flags="589830" getter="getSessionFactory" id="org.eclipse.jdt.ui.self.encapsulate" input="/src&lt;com.stackroute.jdbcdemo.dao{HibernateDaoImpl.java[HibernateDaoImpl^sessionFactory" insertion="0" setter="setSessionFactory" stamp="1507716566637" version="1.0" visibility="1"/>
+</session>

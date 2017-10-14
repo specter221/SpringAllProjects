@@ -1,0 +1,14 @@
+package com.stackroute.zomoto.Foodies.interfce;
+
+import java.util.List;
+
+import com.stackroute.zomato.Foodies.domain.FoodiesModel;
+
+public interface FoodiesService {
+	
+	public List<FoodiesModel> getAllRestaurant();
+	public void addFoodiesModel(FoodiesModel foodiesmodel);
+	
+	public void deleteFoodiesModel(FoodiesModel foodiesmodel);
+
+}

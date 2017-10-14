@@ -1,0 +1,46 @@
+package org.stackroute.SpringDemoapp;
+
+public class Triangle {
+	private Point pointA;
+	private Point pointB;
+	private Point pointC;
+	
+	
+	public void draw() {
+			//System.out.println(getType() + "  Traingle is drawn of height "+ getHeight());
+			
+		}
+	}
+
+
+/*	
+private String type;
+private int height;
+
+public int getHeight() {
+	return height;
+}
+
+public Triangle(String type) //Constructor injection
+{
+	this.type=type;
+}
+
+public Triangle(int height) //Constructor injection
+{
+	this.height=height;
+}
+
+public Triangle(String type, int height) //Constructor injection and method overloading
+{
+	this.type=type;
+	this.height=height;
+}
+public void setType(String type) {
+	this.type = type;
+}
+public String getType() {
+return type;
+}
+*/
+   

@@ -1,0 +1,29 @@
+package com.stackroute.zomato.Foodies.controller;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.stackroute.zomato.Foodies.domain.FoodiesModel;
+
+@RestController
+//@RequestMapping("/v0.1/ZomatoService")
+public class FoodiesController {
+	
+	@RequestMapping(value="/Foodies")//, method=RequestMethod.GET)
+	public FoodiesModel getAllRestaurant() {
+		return new FoodiesModel(1, "Truffles", 200, "kormanagala");
+	}
+	
+	@RequestMapping(value="/Foodies" , method=RequestMethod.DELETE)
+	public void getDeleteRestaurant() {
+		
+		
+	}
+	@RequestMapping(value="/Foodies" , method=RequestMethod.POST)
+	public void getSaveRestaurant() {
+		
+		
+	}
+	
+}

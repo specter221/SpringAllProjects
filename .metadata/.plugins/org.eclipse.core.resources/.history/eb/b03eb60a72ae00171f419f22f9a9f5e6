@@ -1,0 +1,28 @@
+package com.stackroute.jdbcdemo.dao;
+
+import org.hibernate.SessionFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+
+public class HibernateDaoImpl {
+	
+	@Autowired
+	private SessionFactory sessionFactory;
+	
+	
+	
+	
+	public int getCircleCount() {
+		
+		
+		
+       
+    }
+
+    public SessionFactory getSessionFactory() {
+		return sessionFactory;
+	}
+    public void setSessionFactory(SessionFactory sessionFactory) {
+		this.sessionFactory = sessionFactory;
+	}
+	
+}

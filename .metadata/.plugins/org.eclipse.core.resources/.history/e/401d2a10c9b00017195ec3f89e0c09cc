@@ -1,0 +1,68 @@
+package com.stackroute.zomato.Foodies.domain;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
+public class FoodiesModel {
+
+	@Id
+	private int restaurantId;
+	private String restaurantName;
+	private long cost;
+	private String restaurantAddress;
+	
+
+	
+	public FoodiesModel(int restaurantId, String restaurantName, long cost, String restaurantAddress) {
+		super();
+		this.restaurantId = restaurantId;
+		this.restaurantName = restaurantName;
+		this.cost = cost;
+		this.restaurantAddress = restaurantAddress;
+	}
+	
+	public FoodiesModel() {
+		
+	}
+
+	// Getters and Setters are created
+	public int getRestaurantId() {
+		return restaurantId;
+	}
+
+	public void setRestaurantId(int restaurantId) {
+		this.restaurantId = restaurantId;
+	}
+
+	public String getRestaurantName() {
+		return restaurantName;
+	}
+
+	public void setRestaurantName(String restaurantName) {
+		this.restaurantName = restaurantName;
+	}
+
+	public long getCost() {
+		return cost;
+	}
+
+	public void setCost(long cost) {
+		this.cost = cost;
+	}
+
+	public String getRestaurantAddress() {
+		return restaurantAddress;
+	}
+
+	public void setRestaurantAddress(String restaurantAddress) {
+		this.restaurantAddress = restaurantAddress;
+	}
+	
+	
+	
+	
+	
+	
+	
+}

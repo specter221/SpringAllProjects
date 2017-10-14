@@ -1,0 +1,43 @@
+package com.stackroute.zomato.Foodies.domain;
+
+public class FoodiesModel {
+
+	private int RestaurantId;
+	private String RestaurantName;
+	private long Cost;
+	private String RestaurantAddress;
+	
+	public int getRestaurantId() {
+		return RestaurantId;
+	}
+	public void setRestaurantId(int restaurantId) {
+		RestaurantId = restaurantId;
+	}
+	
+	public String getRestaurantName() {
+		return RestaurantName;
+	}
+	public void setRestaurantName(String restaurantName) {
+		RestaurantName = restaurantName;
+	}
+	
+	public long getCost() {
+		return Cost;
+	}
+	public void setCost(long cost) {
+		Cost = cost;
+	}
+	
+	public String getRestaurantAddress() {
+		return RestaurantAddress;
+	}
+	public void setRestaurantAddress(String restaurantAddress) {
+		RestaurantAddress = restaurantAddress;
+	}
+	
+	
+	
+	
+	
+	
+}

@@ -1,0 +1,23 @@
+package com.stackroute.jdbcdemo1;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.stackroute.jdbcdemo.Circle;
+import com.stackroute.jdbcdemo.dao.JdbcDaoImpl;
+
+public class JdbcDemo {
+
+	public static void main(String[] args) {
+		
+		@SuppressWarnings("resource")
+		ApplicationContext ctx= new ClassPathXmlApplicationContext("spring.xml");
+		JdbcDaoImpl dao = ctx.getBean("j dbcDaoImpl", JdbcDaoImpl.class);
+		Circle circle= dao.getCircle(1);
+		
+		//Circle circle= new JdbcDaoImpl().getCircle(1);
+		System.out.println(circle.getName());
+		
+	}
+
+}

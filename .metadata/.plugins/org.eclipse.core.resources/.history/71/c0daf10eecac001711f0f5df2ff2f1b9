@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+
+
+<beans>
+    <bean id="triangle" class="org.stackroute.SpringDemoapp.Triangle">
+        <property name="pointA" ref="zeroPoint"/>
+        
+        <property name="pointB">
+           <bean class="org.stackroute.SpringDemoapp.Point">
+               <property name="x"  value="-20"/>
+               <property name="y"  value="0"/>
+          </bean>
+        </property>
+        
+        
+        <property name="pointC">
+        <bean  class="org.stackroute.SpringDemoapp.Point">
+            <property name="x"  value="20"/>
+            <property name="y"  value="0"/>
+       </bean>
+       </property>
+    </bean>   
+        
+       <bean id="zeroPoint" class="org.stackroute.SpringDemoapp.Point">
+            <property name="x"  value="0"/>
+            <property name="y"  value="0"/>
+       </bean>
+       
+       
+       
+       
+       
+</beans>
+ 
+ 
+ 
+ 
+ <!--  <constructor-arg  type="String" value="Equilateral"/>
+       <constructor-arg  type="int"  value="20"/> 
+       
+       <constructor-arg  index="0" value="Equilateral"/>
+       <constructor-arg  index="1"  value="20"/> -->
+

@@ -1,0 +1,7 @@
+package com.stackroute.jdbcdemo.dao;
+
+import org.springframework.jdbc.core.simple.SimpleJdbcCall;
+
+public class SimpleJdbcDaoImpl extends SimpleJdbcCall {
+
+}

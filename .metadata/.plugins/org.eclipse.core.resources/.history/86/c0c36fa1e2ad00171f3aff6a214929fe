@@ -1,0 +1,15 @@
+package com.stackroute.jdbcdemo1;
+
+import com.stackroute.jdbcdemo.Circle;
+import com.stackroute.jdbcdemo.dao.JdbcDaoImpl;
+
+public class JdbcDemo {
+
+	public static void main(String[] args) {
+		
+		Circle circle= new JdbcDaoImpl().getCircle(1);
+		System.out.println(circle.getName());
+		
+	}
+
+}
